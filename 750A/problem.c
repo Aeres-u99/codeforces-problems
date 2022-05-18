@@ -8,7 +8,7 @@ int main() {
     for (i = 1; (i < 11) && ((time - 5*n) > 0); i++) {
         time = time - 5*i;
         n = i;
-//        printf("time: %d 5i: %d n: %d\n", time, 5*i, n);
+        printf("time: %d 5i: %d n: %d\n", time, 5*i, n);
     }
     //n = (sqrt((8 * time)/5 + 1) - 1)/ 2;
     if (n>=questions) {
